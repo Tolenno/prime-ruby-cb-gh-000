@@ -4,5 +4,6 @@ def prime?(num)
 
   (3..num/2).step(2).to_a.each do |check|
     puts check
+    return true
   end
 end
