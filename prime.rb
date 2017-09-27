@@ -3,8 +3,7 @@ def prime?(num)
   return true if num == 1 || num == 2
 
   (3..num/2).step(2).to_a.each do |check|
-    if num % check == 0
-      return false
+    return false if num % check == 0
   end
   return true
 end
