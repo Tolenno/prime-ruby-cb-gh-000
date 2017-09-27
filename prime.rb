@@ -1,6 +1,6 @@
-def prime?(int)
-  return false unless int > 0
-    
+def prime?(num)
+  return false unless num > 0
+  
 end
 
 
